@@ -1,0 +1,32 @@
+Diseñando con Algoritmos 
+Laboratorio 4
+
+
+Analisis y diseño del aplicativo:
+1. Contexto del problema: 
+
+Desarrollar un prototipo de videojuego en base al Space Invaders. El usuario debe controlar al "Heroe", 
+el cual dispara balas infinitas hacia los enemigos que decienden desde la parte superior, 
+debe contar con un contador de (3) vidas y un contador de enemigos restantes. 
+El juego acaba cuando los enemigos son eliminados (GANAR) o cuando los enemigos 
+llegan a la parte inferior del lienzo y restan vida al "Heroe" (PERDER). 
+
+2. Requerimientos funcionales y no funcionales:
+
+   -Requerimientos funcionales:
+
+     R1: El¨Heroe" debe poder desplazarse en horizontal. Debe detectar las flechas IZQ y DER del teclado. 
+     R2: Los enemigos deben moverse en horizontal y vertical. 
+     R3: El "Heroe" debe disparar balas infinitas. Debe detectar la tecla ESPACIO, 
+         luego disparar la bala. 
+     R4: El "Heroe" debe tener un contador de 3 vidas. 
+     R5: Los enemigos deben restarle una vida al "Heore" al llegar a la parte inferiror del lienzo.
+         luego restar -1 a la vida del "Heroe", dar el resultado de vidas actuales.
+     R6: El juego debe tener 3 pantallas, el menu, el juego y ganaste/perdiste.
+
+   -Requerimientos NO funcionales:
+
+     RN1: Los enemigos tienen que ser figuras geometricas. 
+     RN2: El "Heroe" debe ser una figura geometrica diferente a los enemigos. 
+     RN3: Los elementos de UI deberan ser geometricos para mantener un estilo grafico. 
+     
